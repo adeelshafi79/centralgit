@@ -1,0 +1,59 @@
+<!-- /var/www/html/site1/index.html -->
+          <!DOCTYPE html>
+     <html lang="en">
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Apache Hosted Server - Website 1</title>
+         <style>
+             body {
+                 font-family: 'Arial', sans-serif;
+                 background-color: #f0f0f0;
+                 margin: 0;
+                 padding: 0;
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+                 justify-content: center;
+                 height: 100vh;
+             }
+     
+             h1 {
+                 color: #333;
+                 text-align: center;
+                 margin-bottom: 20px;
+                 animation: fadeIn 2s ease-in-out;
+             }
+     
+             p {
+                 color: #555;
+                 text-align: center;
+                 font-size: 18px;
+                 margin-bottom: 40px;
+                 animation: slideIn 2s ease-in-out;
+             }
+     
+             @keyframes fadeIn {
+                 from {
+                     opacity: 0;
+                 }
+                 to {
+                     opacity: 1;
+                 }
+             }
+     
+             @keyframes slideIn {
+                 from {
+                     transform: translateY(-20px);
+                 }
+                 to {
+                     transform: translateY(0);
+                 }
+             }
+         </style>
+     </head>
+     <body>
+         <h1>Welcome to Apache Hosted Server</h1>
+         <p>This is Website Number 1</p>
+     </body>
+     </html>
